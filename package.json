@@ -1,6 +1,5 @@
 {
   "name": "@giesel/reacty-ui",
-  "private": true,
   "version": "0.0.1",
   "description": "A react-ui library",
   "type": "module",
