@@ -13,6 +13,8 @@
       "require": "./dist/reacty-ui.umd.js"
     }
   },
+  "files":["dist"],
+  
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
