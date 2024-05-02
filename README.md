@@ -1,8 +1,4 @@
-# React + TypeScript + Vite
-
-
-
-# Reacty-UI
+ # Reacty-UI
 
 
 A modern react ui components library.
