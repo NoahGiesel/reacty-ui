@@ -30,7 +30,7 @@ interface CalendarProps {
 
 const Calendar: React.FC<CalendarProps> = ({ startDate, renderItem }) => {
     const f = useDateInfo(new Date())
-    console.log('HELLO', new Date(), f, new Array(f.daysInMonth));
+    console.log('HELLO', startDate, new Date(), f, new Array(f.daysInMonth));
     if (!f.daysInMonth) return <>Loading...</>
     return (
         <div style={{ display: 'flex', flexDirection: 'row' }}>
