@@ -5,12 +5,12 @@
   "type": "module",
   "author": "Noah Giesel",
   "license": "MIT",
-  "main": "./dist/reacty-ui.umd.js",
-  "module": "./dist/reacty-ui.es.js",
+  "main": "./dist/@giesel/reacty-ui.umd.js",
+  "module": "./dist/@giesel/reacty-ui.es.js",
   "exports": {
     ".": {
-      "import": "./dist/reacty-ui.es.js",
-      "require": "./dist/reacty-ui.umd.js"
+      "import": "./dist/@giesel/reacty-ui.es.js",
+      "require": "./dist/@giesel/reacty-ui.umd.js"
     }
   },
   "files":["dist"],

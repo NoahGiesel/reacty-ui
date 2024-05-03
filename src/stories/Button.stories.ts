@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "../components";
 
-const meta = {
+const meta: Meta<typeof Button> = {
   title: "Button/Button",
   component: Button,
   parameters: {
@@ -10,7 +10,7 @@ const meta = {
   tags: ["autodocs"],
   args: {},
   argTypes: {},
-} satisfies Meta<typeof Button>;
+};
 
 export default meta;
 type Story = StoryObj<typeof meta>;
