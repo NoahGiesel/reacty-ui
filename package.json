@@ -10,8 +10,7 @@
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "src" 
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
