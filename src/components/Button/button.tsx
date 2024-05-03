@@ -1,12 +1,11 @@
-import * as React from 'react';
+import * as React from "react";
 
 interface ButtonProps {
-    label: string
+  label: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ label }) => {
+  return <button>{label}</button>;
+};
 
-    return <button>{label}</button>
-}
-
-export { Button }
+export { Button };

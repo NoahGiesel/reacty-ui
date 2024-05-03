@@ -1,12 +1,7 @@
-import * as React from 'react'
+import * as React from "react";
 
 const App: React.FC = () => {
+  return <>Hello World</>;
+};
 
-  return (
-    <>
-      Hello World
-    </>
-  )
-}
-
-export default App
+export default App;
