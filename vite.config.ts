@@ -1,11 +1,22 @@
-import { defineConfig } from "vitest/config";
+import path from "path";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  test: {
-    globals: false,
-    environment: "jsdom",
+  build: {
+    lib: {
+      entry: path.resolve("src", "./index.ts"),
+      name: "reacty-ui",
+      fileName: (format) => `reacty-ui.${format}.js`,
+    },
+    rollupOptions: {
+      external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "React",
+        },
+      },
+    },
   },
   plugins: [react()],
 });

@@ -5,11 +5,13 @@
   "type": "module",
   "author": "Noah Giesel",
   "license": "UNLICENSED",
-  "main": "./dist/app.js",
   "private": false,
-  "typings": "dist/index.d.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src" 
   ],
   "scripts": {
     "dev": "vite",
